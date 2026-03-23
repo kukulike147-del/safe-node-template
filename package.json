@@ -1,0 +1,28 @@
+{
+  "name": "safe-node-template",
+  "version": "1.0.0",
+  "description": "防止Node.js项目死循环的安全模板，提供超时保护、进程锁、性能监控等功能",
+  "main": ".scripts/safe-run.js",
+  "scripts": {
+    "verify": "node .scripts/verify-project.js",
+    "monitor": "node .scripts/monitor.js",
+    "safe": "node .scripts/safe-run.js"
+  },
+  "keywords": [
+    "safe",
+    "nodejs",
+    "template",
+    "automation",
+    "monitor",
+    "timeout-protection"
+  ],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
